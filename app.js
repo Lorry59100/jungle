@@ -17,7 +17,9 @@ myAudio.play();
 var controller = new ScrollMagic.Controller();
 
 /* Tween */
-var tween = TweenMax.to("#raptor", 1, {left:800, ease: Power4.easeIn})
+var tween = TweenMax.to("#raptor", 1, {left:1200, ease: Power4.easeIn})
+
+var tween2 = TweenMax.to("#Trex", 1, {left:-100, ease: Power4.easeIn})
 
 /* Scene ScrollMagic */
 var scene = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 400})
