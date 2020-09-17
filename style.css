@@ -6,8 +6,12 @@ body {
 #Trex {
     width: 50%;
     height: 50%;
+    position: relative;
+    left: 1800px;
 }
 
 #raptor {
     position: relative;
+    /* left: -650px; */
+    right: 650px;
 }
