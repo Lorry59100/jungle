@@ -1,6 +1,3 @@
-
-
-
 /*** LOOP AUDIO ***/  
 
 var myAudio = new Audio('https://freesound.org/data/previews/344/344204_5922762-lq.mp3'); 
@@ -21,8 +18,11 @@ var tween = TweenMax.to("#raptor", 1, {left:1200, ease: Power4.easeIn})
 
 var tween2 = TweenMax.to("#Trex", 1, {left:-100, ease: Power4.easeIn})
 
+
+
 /* Scene ScrollMagic */
-var scene = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 400})
+
+var scene = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 500})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.4)
                                   /* Ajout du curseur repère pour trigger */
@@ -33,3 +33,21 @@ var scene = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 400})
                                   .reverse(false)
                                   /* Ajout de la scène au controlleur */
                                   .addTo(controller)
+
+var scene2 = new ScrollMagic.Scene({triggerElement: "#animate2", offset: 100})
+                                  /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
+                                  .triggerHook(0.6)
+                                  /* Ajout du curseur repère pour trigger */
+                                  .addIndicators({name: "trex", colorTrigger: "blue", indent: 500})
+                                  /* Liaison à Greensock */
+                                  .setTween(tween2)
+                                  /* Reverse false pour que l'anim ne se rejoue pas */
+                                  .reverse(false)
+                                  /* Ajout de la scène au controlleur */
+                                  .addTo(controller)
+
+
+
+
+
+
