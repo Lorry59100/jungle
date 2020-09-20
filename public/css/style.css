@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://images.pexels.com/photos/3668371/pexels-photo-3668371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+}
+
+#Trex {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 1800px;
+}
+
+#raptor {
+    position: relative;
+    right: 1100px;
+}
+
+#sound {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: green;
+}
+
+ul li {
+    list-style: none;
+}
+
+.Trexinfo, .raptorinfo, h2 {
+    color: white;
+}
+
+#animate1 {
+    display: flex;
+}
+
+.boxinforaptor, #raptorTitle {
+    text-align: center;
+}
+
+.boxinfotrex {
+    text-align: center;
+}
