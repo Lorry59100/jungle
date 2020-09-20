@@ -22,10 +22,6 @@ body {
     color: green;
 }
 
-ul li {
-    list-style: none;
-}
-
 .Trexinfo, .raptorinfo, h2 {
     color: white;
 }
